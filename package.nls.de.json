@@ -1,0 +1,7 @@
+{
+    "flutter-intl-assistance.title": "Flutter Intl-Textunterstützung",
+    "flutter-intl-assistance.resourceDir": "Geben Sie den Verzeichnisspeicherort an, in dem internationalisierte ARB- oder JSON-Dateien im Projekt gespeichert werden",
+    "flutter-intl-assistance.enableFeature": "Aktivieren oder Deaktivieren der Schnelltippsfunktion",
+    "flutter-intl-assistance.codePrefixes": "Code-Präfixe für Wörterhinweise, z. B. Strings.",
+    "flutter-intl-assistance.fileType": "Original internationalisierter Dateityp"
+}

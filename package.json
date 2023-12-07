@@ -1,0 +1,128 @@
+{
+  "name": "flutter-intl-text-assistance",
+  "displayName": "Flutter Intl Text Assistance",
+  "description": "Flutter Intl internationalized display assistant, all original translation strings can be quickly displayed on the code",
+  "version": "1.0.0",
+  "publisher": "Cat-X",
+  "keywords": [
+    "futlter",
+    "dart",
+    "text",
+    "translate",
+    "intl",
+    "assistance"
+  ],
+  "author": {
+    "name": "Vince Cat"
+  },
+  "icon": "images/logo.jpg",
+  "galleryBanner": {
+    "color": "#356bbc",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "languages": [
+    {
+      "id": "dart",
+      "extensions": [
+        ".dart"
+      ],
+      "aliases": [
+        "dart"
+      ]
+    }
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:dart"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flutter-intl-text-assistance.flutter-text-assistance-open",
+        "title": "Flutter Intl Text Assistance Open"
+      },
+      {
+        "command": "flutter-intl-text-assistance.flutter-text-assistance-close",
+        "title": "Flutter Intl Text Assistance Close"
+      }
+    ],
+    "configuration": {
+      "title": "%flutter-intl-assistance.title%",
+      "properties": {
+        "flutter-intl-text-assistance.resourceDir": {
+          "type": "string",
+          "default": "./lib",
+          "description": "%flutter-intl-assistance.resourceDir%"
+        },
+        "flutter-intl-text-assistance.enableFeature": {
+          "type": "boolean",
+          "default": true,
+          "description": "%flutter-intl-assistance.enableFeature%"
+        },
+        "flutter-intl-text-assistance.codePrefixes": {
+          "type": "array",
+          "default": [
+            "Strings.",
+            "current.",
+            "of."
+          ],
+          "description": "%flutter-intl-assistance.codePrefixes%"
+        },
+        "flutter-intl-text-assistance.fileType": {
+          "type": "string",
+          "default": "arb",
+          "description": "%flutter-intl-assistance.fileType%",
+          "enum": [
+            "arb",
+            "json"
+          ],
+          "enumDescriptions": [
+            "Intl Arb",
+            "Json"
+          ]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.81.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@vscode/test-electron": "^2.3.6",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "announcement": {
+    "onVersion": "1.0.1",
+    "message": "[NEW] Integration  of Color palette: supports all the languages except - CSS, LESS, SCSS."
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

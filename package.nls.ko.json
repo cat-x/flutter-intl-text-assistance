@@ -1,0 +1,7 @@
+{
+    "flutter-intl-assistance.title": "Flutter Intl 텍스트 지원",
+    "flutter-intl-assistance.resourceDir": "프로젝트에서 국제화된 arb 또는 json 파일이 저장되는 디렉터리 위치를 지정합니다.",
+    "flutter-intl-assistance.enableFeature": "빠른 프롬프트 기능을 사용할지 여부",
+    "flutter-intl-assistance.codePrefixes": "프롬프트되는 단어의 코드 접두사(예: Strings.)",
+    "flutter-intl-assistance.fileType": "원본 국제화 파일 유형"
+}

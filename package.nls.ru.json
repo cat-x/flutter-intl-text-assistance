@@ -1,0 +1,7 @@
+{
+    "flutter-intl-assistance.title": "Текстовая помощь Flutter Intl",
+    "flutter-intl-assistance.resourceDir": "Укажите местоположение каталога, в котором в проекте сохраняются интернационализированные файлы arb или json.",
+    "flutter-intl-assistance.enableFeature": "Включить или выключить функцию быстрых подсказок",
+    "flutter-intl-assistance.codePrefixes": "Префиксы кода для подсказываемых слов, например Strings.",
+    "flutter-intl-assistance.fileType": "Тип исходного интернационализированного файла"
+}

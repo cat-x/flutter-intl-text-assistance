@@ -1,0 +1,7 @@
+{
+    "flutter-intl-assistance.title": "Flutter Intl テキスト支援",
+    "flutter-intl-assistance.resourceDir": "国際化された arb または json ファイルがプロジェクトに保存されるディレクトリの場所を指定します",
+    "flutter-intl-assistance.enableFeature": "クイック プロンプト機能を有効にするかどうか",
+    "flutter-intl-assistance.codePrefixes": "プロンプトの単語のコード接頭辞 (文字列など)。",
+    "flutter-intl-assistance.fileType": "元の国際化されたファイル タイプ"
+}

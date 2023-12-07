@@ -1,0 +1,7 @@
+{
+    "flutter-intl-assistance.title": "Flutter Intl text assistance",
+    "flutter-intl-assistance.resourceDir": "Specify the directory location where internationalized arb or json files are saved in the project",
+    "flutter-intl-assistance.enableFeature": "Whether to enable the quick prompts feature",
+    "flutter-intl-assistance.codePrefixes": "Code prefixes for prompted words, e.g. Strings.",
+    "flutter-intl-assistance.fileType": "Original internationalized file type"
+}
