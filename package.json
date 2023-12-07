@@ -21,6 +21,14 @@
     "theme": "dark"
   },
   "license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cat-x/flutter-intl-text-assistance/issues",
+		"email": "a599231042@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cat-x/flutter-intl-text-assistance"
+	},
   "engines": {
     "vscode": "^1.81.0"
   },
