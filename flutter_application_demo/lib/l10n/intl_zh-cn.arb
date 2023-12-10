@@ -1,0 +1,7 @@
+{
+    "title": "Flutter Intl 文字辅助",
+    "resourceDir": "指定项目中保存国际化arb/json文件的目录位置",
+    "enableFeature": "是否启用快速提示功能",
+    "codePrefixes": "提示的单词的代码前缀,例如Strings.",
+    "fileType": "原始国际化文件类型"
+}

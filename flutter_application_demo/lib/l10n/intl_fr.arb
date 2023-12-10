@@ -1,0 +1,7 @@
+{
+    "title": "Assistance textuelle Flutter Intl",
+    "resourceDir": "Spécifiez l'emplacement du répertoire dans lequel les fichiers arb ou json internationalisés sont enregistrés dans le projet",
+    "enableFeature": "Activer/désactiver la fonctionnalité de suggestions rapides",
+    "codePrefixes": "Préfixes de code pour les mots suggérés, par ex. Strings.",
+    "fileType": "Type de fichier d'internationalisation d'origine"
+}

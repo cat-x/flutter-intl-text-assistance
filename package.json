@@ -2,7 +2,7 @@
   "name": "flutter-intl-text-assistance",
   "displayName": "Flutter Intl Text Assistance",
   "description": "Flutter Intl internationalized display assistant, all original translation strings can be quickly displayed on the code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "Cat-X",
   "keywords": [
     "futlter",
@@ -15,20 +15,20 @@
   "author": {
     "name": "Vince Cat"
   },
-  "icon": "images/logo.jpg",
+  "icon": "asset/images/logo.jpg",
   "galleryBanner": {
     "color": "#356bbc",
     "theme": "dark"
   },
   "license": "MIT",
-	"bugs": {
-		"url": "https://github.com/cat-x/flutter-intl-text-assistance/issues",
-		"email": "a599231042@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cat-x/flutter-intl-text-assistance"
-	},
+  "bugs": {
+    "url": "https://github.com/cat-x/flutter-intl-text-assistance/issues",
+    "email": "a599231042@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat-x/flutter-intl-text-assistance"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -129,8 +129,5 @@
   "announcement": {
     "onVersion": "1.0.1",
     "message": "[NEW] Integration  of Color palette: supports all the languages except - CSS, LESS, SCSS."
-  },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
   }
 }

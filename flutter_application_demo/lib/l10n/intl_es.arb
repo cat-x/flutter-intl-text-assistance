@@ -1,0 +1,7 @@
+{
+    "title": "Asistencia de texto de Flutter Intl",
+    "resourceDir": "Geben Sie den Verzeichnisspeicherort an, in dem internationalisierte ARB- oder JSON-Dateien im Projekt gespeichert werden",
+    "enableFeature": "Habilitar o inhabilitar la función de sugerencias rápidas",
+    "codePrefixes": "Prefijos de código para palabras sugeridas, p. ej. Strings.",
+    "fileType": "Tipo de archivo internacionalizado original"
+}

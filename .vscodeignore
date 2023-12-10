@@ -11,3 +11,5 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 **/*.map
 **/*.ts
+images/**
+flutter_application_demo/**

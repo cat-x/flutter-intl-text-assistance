@@ -1,0 +1,7 @@
+{
+    "title": "Flutter Intl-Textunterstützung",
+    "resourceDir": "Geben Sie den Verzeichnisspeicherort an, in dem internationalisierte ARB- oder JSON-Dateien im Projekt gespeichert werden",
+    "enableFeature": "Aktivieren oder Deaktivieren der Schnelltippsfunktion",
+    "codePrefixes": "Code-Präfixe für Wörterhinweise, z. B. Strings.",
+    "fileType": "Original internationalisierter Dateityp"
+}
